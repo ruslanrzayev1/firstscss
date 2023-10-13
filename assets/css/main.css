@@ -1,0 +1,133 @@
+.section1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.section1 .hdr1 {
+  width: 600px;
+  height: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+  gap: 60px;
+}
+.section1 .hdr1 .contex_cntnr {
+  width: 580px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.section1 .hdr1 .contex_cntnr .discover {
+  font-size: 16px;
+  color: red;
+}
+.section1 .hdr1 .contex_cntnr p {
+  font-size: 16px;
+}
+.section1 .hdr1 .contex_cntnr strong {
+  font-size: 49px;
+}
+.section1 .hdr1 img {
+  width: 570px;
+  height: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section1 .hdr1 .recept_cntnr {
+  width: 490px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.section1 .hdr1 .recept_cntnr .recept {
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.section2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.section2 .hdr2 {
+  width: 600px;
+  height: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+}
+.section2 .hdr2 img {
+  width: 570px;
+  height: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2 .hdr2 .contex_cntnr2 {
+  width: 490px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.section2 .hdr2 .contex_cntnr2 .about {
+  font-size: 16px;
+  color: red;
+}
+.section2 .hdr2 .contex_cntnr2 p {
+  font-size: 16px;
+  line-height: 30px;
+}
+.section2 .hdr2 .contex_cntnr2 strong {
+  font-size: 49px;
+}
+.section2 .hdr2 .contex_cntnr2 button {
+  width: 160px;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid orange;
+  background-color: white;
+  transition: 0.3s linear;
+}
+.section2 .hdr2 .contex_cntnr2 button:hover {
+  cursor: pointer;
+  background-color: orangered;
+  color: white;
+}
+@media screen and (min-width:992px) and (max-width: 1199px){
+  .section1 .hdr1{
+    width: 480px;
+    height: 539px;
+  }
+  
+  
+  .section1 .hdr1 img {
+    width:450px;
+    height: 539px;
+  }
+
+}
+
+@media screen and (min-width:992px) and (max-width: 1199px){
+  .section2 .hdr2{
+    width: 480px;
+    height: 539px;
+  }
+  
+  
+  .section2 .hdr2 img {
+    width:450px;
+    height: 539px;
+  }
+
+}

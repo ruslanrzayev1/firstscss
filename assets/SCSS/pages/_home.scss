@@ -1,0 +1,109 @@
+.section1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  .hdr1 {
+    width: 600px;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    gap: 60px;
+
+    .contex_cntnr {
+      width: 580px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      .discover {
+        font-size: 16px;
+        color: red;
+      }
+      p {
+        font-size: 16px;
+      }
+      strong {
+        font-size: 49px;
+      }
+    }
+    img {
+      width: 570px;
+      height: 670px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .recept_cntnr {
+      width: 490px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      .recept {
+        font-size: 14px;
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
+.section2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  .hdr2 {
+    width: 600px;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+
+    img {
+      width: 570px;
+      height: 670px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contex_cntnr2 {
+      width: 490px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      .about {
+        font-size: 16px;
+        color: red;
+      }
+      p {
+        font-size: 16px;
+        line-height: 30px;
+      }
+      strong {
+        font-size: 49px;
+      }
+      button {
+        width: 160px;
+        height: 60px;
+        border-radius: 5px;
+        border: 1px solid orange;
+        background-color: white;
+        transition: 0.3s linear;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: orangered;
+        color: white;
+      }
+    }
+  }
+}
